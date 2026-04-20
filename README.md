@@ -31,3 +31,16 @@ O sistema é composto por duas frentes principais:
 ```bash
 git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
 cd nome-do-repositorio
+```
+2. Crie e ative um ambiente virtual:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+3. Instale as dependências:
+```bash
+pip install torch transformers datasets evaluate faster-whisper sounddevice numpy nltk
+```
+
+
