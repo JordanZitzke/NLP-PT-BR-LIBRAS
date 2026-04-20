@@ -43,4 +43,17 @@ venv\Scripts\activate     # Windows
 pip install torch transformers datasets evaluate faster-whisper sounddevice numpy nltk
 ```
 
+## ⚙️ Uso
 
+1. Transcrição de Áudio:
+```bash
+python transcrever.py --model base --device cpu
+```
+2. Treinamento do Modelo
+```bash
+python treinamento_mod.py
+```
+3. Inferência / Tradução de Textos:
+```bash
+python Teste_sentenca.py
+```
